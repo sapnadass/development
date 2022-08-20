@@ -1,0 +1,491 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+.background-image {
+    background-image: url(/Assets/images/camera-man.jpg);
+    background-size: cover;
+}
+
+.navbar ul li img {
+    height: 25px;
+    margin-right: 10px;
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(22, 61, 82, 0.9);
+}
+
+.sub-container {
+
+    margin-top: 20px;
+    width: 75vw;
+    height: 80vh;
+
+}
+
+.navbar {
+
+    display: flex;
+    position: relative;
+    color: white;
+}
+
+.navbar ul {
+    display: flex;
+    font-size: 25px;
+}
+
+.navbar ul li {
+    list-style: none;
+}
+
+.button {
+    display: flex;
+    position: absolute;
+    right: 0%;
+    font-size: 15px;
+}
+
+.button p {
+    font-size: 18px;
+    margin-right: 20px;
+    color: rgb(122, 121, 121);
+    padding-top: 5px;
+}
+
+.button button {
+    width: 100px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgba(22, 61, 82, 1.5);
+    color: white;
+}
+
+.left {
+    width: 40vw;
+    margin-top: 100px;
+    color: white;
+}
+
+.left button {
+    margin-top: 30px;
+    width: 130px;
+    height: 35px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(46, 159, 102);
+    color: white;
+    font: bolder;
+    font-size: 18px;
+}
+
+.right {
+    margin-top: 120px;
+    margin-left: 100px;
+}
+
+.right img {
+    height: 250px;
+    width: 370px;
+}
+
+.main-heading {
+    display: flex;
+    height: 80vh;
+}
+
+.para {
+    margin-top: 30px;
+    width: 350px;
+}
+
+.line {
+    margin-top: 10px;
+    font: bolder;
+}
+
+/* <!-------------------------------------second part----------------------------------------------------------------------> */
+
+
+.start-second {
+    height: 50vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 0px;
+    margin-right: 40px;
+}
+
+.content {
+
+    width: 500px;
+    height: 170px;
+    margin: 0px 40px;
+    line-height: 1.5;
+}
+
+.second-firstpart {
+
+    margin-left: -60px;
+}
+
+.secondpart {
+    position: relative;
+    background-color: lightseagreen;
+    height: 100vh;
+
+}
+
+.logo1 {
+    margin-left: 20px;
+}
+
+.img1 img {
+    background-color: aqua;
+    border-radius: 100px;
+    height: 50px;
+}
+
+.img2 img {
+    border: radius 100px;
+    height: 40px;
+    margin-top: 30px;
+}
+
+.secondpart h2 {
+    text-align: center;
+    padding-top: 40px;
+    font-size: 30px;
+    color: white;
+}
+
+.secondpart p {
+    text-align: center;
+    padding-top: 20px;
+    color: rgba(255, 255, 255, 0.685);
+}
+
+.img3 {
+
+    height: 93%;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.img3 img {
+    width: 70%;
+    position: absolute;
+    bottom: 0px;
+}
+
+
+/* <!------------------------------------------------------------- third-part----------------------------------------------------> */
+
+
+.third-containent {
+
+    height: 100vh;
+    width: 100vw;
+    text-align: center;
+}
+
+.containent h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+
+.third-para {
+    text-align: center;
+    width: 50%;
+    margin: auto;
+    padding: 20px 0px;
+    color: rgba(0, 0, 0, 0.508);
+    line-height: 2;
+}
+
+.table {
+    padding: 60px 0px;
+    display: grid;
+    grid-gap: 40px;
+    width: 60%;
+    margin: auto;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    color: white;
+}
+
+.rowcenter {
+    text-align: center;
+}
+
+.heading {
+    background-color: rgb(28, 48, 48);
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.item {
+    background-color: rgba(110, 176, 176, 0.1);
+    color: rgb(28, 48, 48);
+}
+
+.item ul li {
+    padding: 25px 0px;
+    list-style: none;
+}
+
+.price {
+    font-weight: bolder;
+    font-size: 20px;
+}
+
+.third-button {
+    margin-top: 40px;
+}
+
+.third-button button {
+    background-color: rgb(28, 48, 48);
+    padding: 10px 87px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.heading2 {
+    background-color: rgb(46, 187, 4);
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.item2 {
+    background-color: rgba(55, 219, 5, 0.1);
+    color: rgb(28, 48, 48);
+}
+
+.item2 ul li {
+    padding: 25px 0px;
+    list-style: none;
+}
+
+.price2 {
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(42, 170, 3);
+}
+
+.button2 {
+    margin-top: 40px;
+}
+
+.button2 button {
+    background-color: rgb(46, 187, 4);
+    padding: 10px 83px;
+    border: none;
+    font-size: 20px;
+    cursor: pointer;
+    color: white;
+}
+
+.heading3 {
+    background-color: rgb(0, 136, 146);
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.item3 {
+    background-color: rgba(208, 212, 207, 0.4);
+    color: rgb(28, 48, 48);
+}
+
+.item3 ul li {
+    padding: 25px 0px;
+    list-style: none;
+}
+
+.price3 {
+    font-weight: bolder;
+    font-size: 20px;
+    color: rgb(0, 136, 146);
+}
+
+.button3 {
+    margin-top: 40px;
+}
+
+.button3 button {
+    background-color: rgb(0, 136, 146);
+    padding: 10px 83px;
+    border: none;
+    font-size: 20px;
+
+    color: white;
+}
+
+/* <!-------------------------------------------------------------------------- fouth part-----------------------------------------------------------------> */
+ .fourth {
+
+    background-image: url(/Assets/images/background.png);
+    background-size: cover;
+}
+.fourth-backgroundimg {
+
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    background-color: rgba(233, 52, 29, 0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.fourth-button {
+    width: 100px;
+    height: 100px;
+}
+
+
+.row1 {
+    text-align: center;
+}
+
+.row1 h2 {
+    background-color: lightgrey;
+    font-size: 30px;
+    padding: 40px 0px;
+}
+
+
+/* <!---------------------------------------------------------------fifth part---------------------------------------------------------------> */
+
+.upper-background {
+    background-color: rgb(62, 62, 66);
+    height: 100vh;
+}
+
+.logo {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 40px 0px;
+}
+
+input[type=text],
+
+textarea {
+    width: 500PX;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+}
+
+label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+    color: white;
+    font-size: 19px;
+}
+
+input[type=submit] {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+
+}
+
+.container2 {
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    height: 430px;
+}
+
+.col-25 {
+
+    width: 20%;
+    margin-top: 6px;
+}
+
+.col-75 {
+
+    width: 20%;
+    margin-top: 6px;
+}
+
+.rows {
+
+    margin-right: 95px;
+}
+
+#message {
+    height: 143px;
+}
+
+.row input {
+    display: flex;
+    justify-content: flex-end;
+}
+
+.rowbtn {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 40px;
+}
+
+.rowbtn input {
+    background-color: red;
+    border: none;
+    height: 40px;
+    width: 100px;
+    color: white;
+
+}
+
+.container3 {
+
+    display: flex;
+    justify-content: center;
+}
+
+.footer-right {
+
+    padding-left: 40px;
+    margin-left: 310px;
+}
+
+.footer-left {
+    margin-right: 50px;
+    padding: 20px 0px 0px 0px;
+    margin-left: 5px;
+}
+
+span {
+    font-size: 10px;
+    color: rgba(128, 128, 128, 0.905);
+}
+
+.image-footer {
+    padding: 20px 0px 0px 0px;
+
+}
+
+.image-footer img {
+    height: 20px;
+}
+
+.footer-right img {
+    height: 33px;
+    margin-top: 10px;
+
+}
